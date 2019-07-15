@@ -10,12 +10,13 @@ h3, h2, h4 {
     color: green;
     text-align: center;
 }
-body {
-    background-image: url(daa.jpg);
-    background-repeat : no-repeat;
-    margin: 0;
-    font-family: sans-serif;
-    color: white;
+html { 
+  background: url(daa.jpg) no-repeat center center fixed;
+  font-family: 'Courgette', cursive;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 button {
      width: 5%;
