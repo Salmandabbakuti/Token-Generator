@@ -12,7 +12,6 @@ h3, h2, h4 {
 }
 html { 
   background: url(daa.jpg) no-repeat center center fixed;
-  font-family: 'Courgette', cursive;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
