@@ -1,13 +1,15 @@
   	if (typeof(web3) === "undefined") {
       console.log("Unable to find web3. " +
             "Please run MetaMask (or something else that injects web3).");
-    } else {
+             } 
+    else {
       console.log("Found injected web3.");
       web3 = new Web3(web3.currentProvider);
       ethereum.enable();
       if (web3.version.network != 3) {
         console.log("Wrong network detected. Please switch to the Ropsten test network.");
-      } else {
+          } 
+      else {
         console.log("Connected to the Ropsten test network.");
         web3.eth.defaultAccount = web3.eth.accounts[0];
         }
