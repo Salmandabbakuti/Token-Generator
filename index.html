@@ -2,34 +2,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ERC20-Token Generator</title>
+<link rel="stylesheet" href="index.css">
+<title>ERC20-Token Generator</title>
 </head>
 <body>
   <div id="band"></div>
   <h2>ERC20-Token Generator</h2>
   </br>
-</br>
-   <div style="text-align: center;">
-        <label><b>Name:</b></label>
-<input type="text" id="name" placeholder="Enter Token Name.." required />
-<label><b>Symbol :</b></label>
-<input type="text" id="symbol" placeholder="Enter Token Symbol.." required />
-<label><b>Decimals :</b></label>
-<input type="text" id="decimals" placeholder="Enter Token Decimals.. " required />
-<label><b>Total Supply:</b></label>
-<input type="text" id="supply" placeholder="Enter Token Quantity.. " required />
-<label><b>Owner:</b></label>
-<input type="text" id="address" placeholder="Enter Ownership Address.." required />
-<button onclick="deploy()">Generate </button>
-</div>
+  <div id="modal" style="text-align: center;">
+   </br/>
+   <center><label><b>Name:</b></label></center>
+   <center><input type="text" id="name" placeholder="Enter Token Name.." required /><center>
+   <center><label><b>Symbol:</b></label></center>
+   <center><input type="text" id="symbol" placeholder="Enter Token Symbol.." required /></center>
+   <center><label><b>Decimals:</b></label></center>
+   <center><input type="text" id="decimals" placeholder="Enter Token Decimals.. " required /></center>
+   <center><label><b>Total Supply:</b></label></center>
+   <center><input type="text" id="supply" placeholder="Enter Token Quantity.. " required /></center>
+   <center><label><b>Owner:</b></label></center>
+   <center><input type="text" id="address" placeholder="Enter Ownership Address.." required /></center>
+   <center><button onclick="deploy()">Generate </button></center>
+  </div>
 </br>
 <center><p><b>Deployed To:</b><span id="getAddress">??</span></p></center>
 </div>
 <hr>
-<div id="log" style="text-align: center;"></div>
- <link rel="stylesheet" href="index.css">
- <script src ="index.js"></script>
+<script src ="index.js"></script>
 </body>
-<footer style="text-align: right;">
+<footer style="text-align:right;">
   <h6>&copy Salman Dabbakuti </h6>
 </footer>
